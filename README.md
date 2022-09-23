@@ -1,3 +1,5 @@
+[Actualizado el 21-septiembre-2022 por [Victor Hernandez](https://github.com/Vikmonsi)]
+
 # ESP32CAM_MQTT-Basic
 Este repositorio contiene el programa básico para conectar el ESP32CAM a MQTT, enviar y recibir mensajes.
 
@@ -35,7 +37,7 @@ Puedes obtener la biblioteca PubSubClient desde el siguiente enlace.
 
 https://github.com/knolleary/pubsubclient
 
-El flow de NodeRed lee en el tema `esp32/data` y publica en el tema `esp32/output`, por lo que deberás configurar los nodos MQTT para conectarse a estos temas y al broker de tu elección.
+El flow de NodeRed lee en el tema `codigoIoT/ejemplo/mqtt` y publica en el tema `codigoIoT/ejemplo/mqttin`, por lo que deberás configurar los nodos MQTT para conectarse a estos temas y al broker de tu elección.
 
 Los nodos switch y text de la sección dashboard deberán tener correctamente configurados el tab y group en el que se visualizarán.
 
@@ -52,4 +54,4 @@ Para observar el funcionamiento de este proyecto deberás realizar lo siguiente.
 
 Podrás observar una cuenta progresiva, la cual envía el prográma base del ESP32CAM. Puedes controlar el led flash del ESP32CAM con el switch del dashboard.
 
-Por: [Hugo Vargas](https://github.com/hugoescalpelo)
+Por: [Victor Hernandez](https://github.com/Vikmonsi)
